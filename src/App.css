@@ -1,0 +1,49 @@
+:root{
+  --pmr-blue:hsl(246,80%,60%);
+  --pmr-light-orange:hsl(15,100%,70%);
+  --pmr-soft-blue:hsl(195,74%,62%);
+  --pmr-light-red:hsl(348,100%,68%);
+  --pmr-lime-green:hsl(145,58%,55%);
+  --pmr-violet:hsl(264,64%,52%);
+  --pmr-soft-orangeare:hsl(43,84%,65%);
+  --ntr-very-dark-blue:hsl(226,43%,10%);
+  --ntr-dark-blue:hsl(235,46%,20%);
+  --ntr-desaturated-blue:hsl(235,45%,61%);
+  --ntr-pale-blue:hsl(236,100%,87%);
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--ntr-very-dark-blue);
+  padding: 75px 20px;
+  min-height: 80vh;
+}
+#root{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App{
+  width: 100%;
+  max-width: 700px;
+}
+
+@media (min-width:1024px){
+  body{
+  }
+  .App{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1289px;
+  }
+  .profilecontainer{
+    grid-row: span 2;
+    transform: translateY(20px);
+  }
+
+  #root{
+    
+  }
+}
+
