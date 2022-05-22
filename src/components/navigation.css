@@ -15,6 +15,10 @@
 .nav button{
     width: 94px;
     text-align: center;
+    background-color: transparent;
+    border: none;
+    color: var(--ntr-pale-blue);   
+    font-size: 21px;
 }
 .nav button:hover{
     color: white;
