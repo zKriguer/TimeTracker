@@ -2,7 +2,7 @@ import './App.css';
 import Card from './components/card';
 import Profile from './components/profile'
 import './components/navigation.css'
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 const data = require('./data.json')
 
 

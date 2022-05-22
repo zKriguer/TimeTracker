@@ -15,8 +15,6 @@ const types = {
     exercise: { name: 'Exercise', color: "var(--pmr-lime-green)", icon: <IconExercise className='cardicon' width='100px' height='78px' /> }
 }
 
-const data = require('../data.json')
-
 const Card = (props) => {
     const selectedType = types[props.type]
     const [current, previous] = props.timestamps
