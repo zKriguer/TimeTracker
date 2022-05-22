@@ -31,9 +31,9 @@ function App() {
       <Profile name="Jeremy Robson" />
 
       <nav className="nav">
-          <a onClick={() => changeTimes('daily')}>Daily</a>
-          <a onClick={() => changeTimes('weekly')}>Weekly</a>
-          <a onClick={() => changeTimes('monthly')}>Monthly</a>
+          <button onClick={() => changeTimes('daily')}>Daily</button>
+          <button onClick={() => changeTimes('weekly')}>Weekly</button>
+          <button onClick={() => changeTimes('monthly')}>Monthly</button>
         </nav>
       </div>
       <Card type="work" timestamps={timestamps[0]} />
